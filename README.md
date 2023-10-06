@@ -14,3 +14,9 @@ Panggil Antrian - Fungsi panggil yang dipakai oleh Petugas meja pelayanan untuk 
 
 # Pesan
 File yang di public adalah file hasil production build React JS
+
+# Kontak
+Hubungi saya jika ada saran atau keperluan lebih lanjut
+
+WhatsApp : o85-743-798-735
+Email    : fauzanadimas@gmail.com
