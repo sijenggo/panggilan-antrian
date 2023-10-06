@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/siformat/static/css/main.7a31fc5c.css",
+    "main.js": "/siformat/static/js/main.4269a8f2.js",
+    "static/js/787.9d1e2c30.chunk.js": "/siformat/static/js/787.9d1e2c30.chunk.js",
+    "static/media/bg-01.jpg": "/siformat/static/media/bg-01.b65132387d2534e7713a.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/siformat/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
+    "static/media/fontawesome-webfont.eot": "/siformat/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/siformat/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Poppins-Regular.ttf": "/siformat/static/media/Poppins-Regular.1c701c9a6b587802e3d0.ttf",
+    "static/media/Poppins-Medium.ttf": "/siformat/static/media/Poppins-Medium.b59f6a636397975c5409.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/siformat/static/media/Poppins-SemiBold.5981b450a68d5134225b.ttf",
+    "static/media/Poppins-Bold.ttf": "/siformat/static/media/Poppins-Bold.e2abc8f5e9a67ea669ea.ttf",
+    "static/media/Material-Design-Iconic-Font.ttf?v=2.2.0": "/siformat/static/media/Material-Design-Iconic-Font.5a588d6a8bfc41d69f88.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/siformat/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/siformat/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Material-Design-Iconic-Font.woff?v=2.2.0": "/siformat/static/media/Material-Design-Iconic-Font.bd9b02bf1131d90bfe22.woff",
+    "static/media/jingle_ok.mp3": "/siformat/static/media/jingle_ok.823048b88b5c1e7631a2.mp3",
+    "static/media/Material-Design-Iconic-Font.woff2?v=2.2.0": "/siformat/static/media/Material-Design-Iconic-Font.6ee80f4bf5d3f92f3bf7.woff2",
+    "index.html": "/siformat/index.html",
+    "main.7a31fc5c.css.map": "/siformat/static/css/main.7a31fc5c.css.map",
+    "main.4269a8f2.js.map": "/siformat/static/js/main.4269a8f2.js.map",
+    "787.9d1e2c30.chunk.js.map": "/siformat/static/js/787.9d1e2c30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a31fc5c.css",
+    "static/js/main.4269a8f2.js"
+  ]
+}
