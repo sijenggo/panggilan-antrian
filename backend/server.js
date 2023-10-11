@@ -98,19 +98,21 @@ const wsport = 3002;
 let statusPanggil = false;
 
 wsServer.on('connection', (connection) => {
-  console.log('Koneksi di server masuk pak jookoo');
+  console.log('Websocket Connected!!');
 
   connection.on('message', (message) => {
     const data = JSON.parse(message);
     if (data.type === 'panggilAntrian') {
       panggilAntrian(data.kode, data.nomor, data.ptsp);
-    } else if ( data.type === 'statusAntrian') {
+    } else if (data.type === 'statusAntrian') {
       returnStatus(data.status);
+    } else if (data.type === 'statusCetak') {
+      returnStatusCetak();
     }
   });
 
   connection.on('close', () => {
-    console.log('Koneksi di server kelaur pak jokoo');
+    console.log('Websocket Disconnected!!');
   });
 });
 
@@ -139,6 +141,14 @@ function returnStatus(status) {
   });
 }
 
+function returnStatusCetak() {
+  wsServer.clients.forEach((client) => {
+    if (client.readyState === WebSocket.OPEN) {
+      client.send(JSON.stringify({ type: 'statusCetak' }));
+    }
+  });
+}
+
 function broadcastAntrianUpdateAfterTruncate(ptsp) {
   wsServer.clients.forEach((client) => {
     if (client.readyState === WebSocket.OPEN) {
@@ -159,7 +169,9 @@ app.listen(port, () => {
   console.log(`Server berjalan di http://localhost:${port}`);
 });
 
-server.listen(wsport, () => {
-  console.log(`WSServer berjalan di http://localhost:${wsport}`);
-});
+if (require.main === module) {
+  server.listen(wsport, () => {
+    console.log(`WSServer berjalan di http://localhost:${wsport}`);
+  });
+}
 

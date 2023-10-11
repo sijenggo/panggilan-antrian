@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/siformat/static/css/main.7a31fc5c.css",
-    "main.js": "/siformat/static/js/main.4269a8f2.js",
+    "main.css": "/siformat/static/css/main.0ca7f2ec.css",
+    "main.js": "/siformat/static/js/main.2423b77e.js",
     "static/js/787.9d1e2c30.chunk.js": "/siformat/static/js/787.9d1e2c30.chunk.js",
     "static/media/bg-01.jpg": "/siformat/static/media/bg-01.b65132387d2534e7713a.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/siformat/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
@@ -18,12 +18,12 @@
     "static/media/jingle_ok.mp3": "/siformat/static/media/jingle_ok.823048b88b5c1e7631a2.mp3",
     "static/media/Material-Design-Iconic-Font.woff2?v=2.2.0": "/siformat/static/media/Material-Design-Iconic-Font.6ee80f4bf5d3f92f3bf7.woff2",
     "index.html": "/siformat/index.html",
-    "main.7a31fc5c.css.map": "/siformat/static/css/main.7a31fc5c.css.map",
-    "main.4269a8f2.js.map": "/siformat/static/js/main.4269a8f2.js.map",
+    "main.0ca7f2ec.css.map": "/siformat/static/css/main.0ca7f2ec.css.map",
+    "main.2423b77e.js.map": "/siformat/static/js/main.2423b77e.js.map",
     "787.9d1e2c30.chunk.js.map": "/siformat/static/js/787.9d1e2c30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a31fc5c.css",
-    "static/js/main.4269a8f2.js"
+    "static/css/main.0ca7f2ec.css",
+    "static/js/main.2423b77e.js"
   ]
 }
